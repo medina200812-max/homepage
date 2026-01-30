@@ -6,5 +6,5 @@ menu.addEventListener("click", function(){
     right.classList.toggle("active")
 })
 close.addEventListener("click", function(){
-    right.style.display="none"
+    right.classList.toggle("active")
 })
